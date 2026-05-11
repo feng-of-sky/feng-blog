@@ -1,4 +1,4 @@
-baseURL = "https://feng-of-sky.github.io/feng-blog/"
+baseURL = "https://feng-of-sky.github.io/"
 title = "风在草上"
 theme = "PaperMod"
 languageCode = "zh-cn"
