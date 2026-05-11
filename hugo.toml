@@ -1,4 +1,4 @@
-baseURL = "https://feng-of-sky.github.io/feng-blog"
+baseURL = "https://feng-of-sky.github.io/feng-blog/"
 title = "风在草上"
 theme = "PaperMod"
 languageCode = "zh-cn"
@@ -23,13 +23,13 @@ enableRobotsTXT = true
 [[menu.main]]
   identifier = "posts"
   name = "文章"
-  url = "/feng-blog/posts/"
+  url = "/posts/"
   weight = 10
 
 [[menu.main]]
   identifier = "about"
   name = "关于"
-  url = "/feng-blog/about/"
+  url = "/about/"
   weight = 20
 
 [[menu.main]]
