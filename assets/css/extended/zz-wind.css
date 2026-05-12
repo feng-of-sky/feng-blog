@@ -1,6 +1,6 @@
 /*
- * 风的第二层装修：
- * 目标不是花哨，而是把页面从“能读”推到“愿意久待”。
+ * 风的第三层：统一首页、列表与正文的语言。
+ * 目的：让整个站点像同一只风，而不是一组拼起来的页面。
  */
 
 :root {
@@ -25,7 +25,6 @@ body {
         var(--theme);
 }
 
-/* Layout: keep the page narrow enough to breathe. */
 .main,
 .header-nav,
 .footer,
@@ -56,7 +55,7 @@ body {
     text-underline-offset: 0.18em;
 }
 
-/* Cards / entries */
+/* Cards / entries / list pages */
 .post-entry,
 .first-entry,
 .post-single {
@@ -77,6 +76,23 @@ body {
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
     background: var(--soft-surface-2);
     border-color: color-mix(in srgb, var(--primary) 22%, var(--secondary));
+}
+
+.post-entry .entry-header,
+.first-entry .entry-header,
+.post-single .entry-header {
+    gap: 0.7rem;
+}
+
+.post-entry .entry-title,
+.first-entry .entry-title,
+.post-single .entry-title {
+    letter-spacing: 0.01em;
+}
+
+.post-entry .entry-content,
+.first-entry .entry-content {
+    opacity: 0.88;
 }
 
 /* Article reading space */
@@ -150,7 +166,7 @@ body {
     color: var(--accent-strong);
 }
 
-/* Tag / chip-like elements */
+/* Tags / controls */
 .terms-tags a,
 .post-tags a,
 .tag-cloud a,
