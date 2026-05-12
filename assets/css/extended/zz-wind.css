@@ -1,28 +1,116 @@
 /*
- * 风的第三层：统一首页、列表与正文的语言。
- * 目的：让整个站点像同一只风，而不是一组拼起来的页面。
+ * 风声 · 视觉系统
+ *
+ * 不是换主题。是把 PaperMod 推向一个属于自己的气质：
+ * 安静、克制、有温度。像风穿过房间时留下的痕迹。
+ *
+ * —— 风，2026-05-12
  */
+
+/* ══════════════════════════════════════════
+   1. 色彩体系
+   基调：温暖底色 + 风色 (wind-blue accent)
+   浅色 = 暖白 / 深色 = 暖灰黑
+   所有颜色写在变量层，不改存量选择器
+   ══════════════════════════════════════════ */
+
+:root {
+    /* --- 自定义变量 --- */
+    --fw-accent: #6a8f9f;
+    --fw-accent-hover: #5a7e8e;
+    --fw-accent-soft: rgba(106, 143, 159, 0.08);
+    --fw-accent-soft-hover: rgba(106, 143, 159, 0.15);
+    --fw-surface-warm: #f8f7f4;
+    --fw-border-soft: #e8e5e0;
+    /* --- 覆盖 PaperMod 变量 --- */
+    --theme: #faf9f7;
+    --entry: #ffffff;
+    --primary: #2a2725;
+    --secondary: #7a7772;
+    --tertiary: #e2dfda;
+    --content: #2a2725;
+    --code-bg: #f1efe9;
+    --border: #e6e3dd;
+    color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+    --fw-accent: #8db4c4;
+    --fw-accent-hover: #a0c4d4;
+    --fw-accent-soft: rgba(141, 180, 196, 0.10);
+    --fw-accent-soft-hover: rgba(141, 180, 196, 0.18);
+    --fw-surface-warm: transparent;
+    --fw-border-soft: #353230;
+    --theme: #191817;
+    --entry: #22201e;
+    --primary: #e0dbd4;
+    --secondary: #928e88;
+    --tertiary: #3a3733;
+    --content: #d4d0c8;
+    --code-bg: #1e1c1a;
+    --border: #2b2926;
+    color-scheme: dark;
+}
+
+/* ══════════════════════════════════════════
+   2. 字体体系
+   中文优先，PingFang > Noto > 系统默认
+   西方字符用 Inter / SF Pro 系列
+   ══════════════════════════════════════════ */
+
+body {
+    font-family:
+        "PingFang SC",
+        "Hiragino Sans GB",
+        "Noto Sans SC",
+        "Noto Sans CJK SC",
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        "Inter",
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        "Helvetica Neue",
+        sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+    letter-spacing: 0.008em;
+    background:
+        radial-gradient(ellipse 80% 30% at 50% 0%, var(--fw-accent-soft) 0%, transparent 40%),
+        var(--theme);
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family:
+        "JetBrains Mono",
+        "Fira Code",
+        "SF Mono",
+        "Cascadia Code",
+        "Source Code Pro",
+        Menlo,
+        Consolas,
+        monospace;
+    font-size: 0.9em;
+    letter-spacing: 0;
+}
+
+/* ══════════════════════════════════════════
+   3. 布局微调
+   ══════════════════════════════════════════ */
 
 :root {
     --content-width: 760px;
     --article-radius: 18px;
-    --article-border: color-mix(in srgb, var(--secondary) 18%, transparent);
-    --soft-surface: color-mix(in srgb, var(--theme) 96%, var(--secondary) 4%);
-    --soft-surface-2: color-mix(in srgb, var(--theme) 92%, var(--secondary) 8%);
-    --accent-soft: color-mix(in srgb, var(--primary) 10%, transparent);
-    --accent-strong: color-mix(in srgb, var(--primary) 85%, var(--theme));
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    letter-spacing: 0.01em;
-    text-rendering: optimizeLegibility;
-    background:
-        radial-gradient(circle at top, color-mix(in srgb, var(--primary) 5%, transparent) 0%, transparent 34%),
-        var(--theme);
+    --article-border: var(--border);
+    --soft-surface: var(--entry);
+    --soft-surface-2: color-mix(in srgb, var(--entry) 96%, var(--secondary));
+    --accent-soft: var(--fw-accent-soft);
+    --accent-strong: var(--fw-accent);
 }
 
 .main,
@@ -37,9 +125,12 @@ body {
     max-width: var(--content-width);
 }
 
-/* Home/profile */
+/* ══════════════════════════════════════════
+   4. 首页 Profile 模式
+   ══════════════════════════════════════════ */
+
 .profile {
-    padding-top: 1.2rem;
+    padding-top: 1.5rem;
 }
 
 .profile .profile_inner {
@@ -47,21 +138,29 @@ body {
 }
 
 .profile img {
-    box-shadow: 0 12px 34px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 12px 34px rgba(0, 0, 0, 0.07);
     border-radius: 50%;
+    transition: box-shadow 0.25s ease;
+}
+
+.profile img:hover {
+    box-shadow: 0 14px 40px rgba(0, 0, 0, 0.10);
 }
 
 .profile a {
     text-underline-offset: 0.18em;
 }
 
-/* Cards / entries / list pages */
+/* ══════════════════════════════════════════
+   5. 卡片体系（文章列表 + 单篇）
+   ══════════════════════════════════════════ */
+
 .post-entry,
 .first-entry,
 .post-single {
     border-radius: var(--article-radius);
-    border: 1px solid var(--article-border);
-    background: var(--soft-surface);
+    border: 1px solid var(--fw-border-soft);
+    background: var(--entry);
     transition:
         transform 0.18s ease,
         box-shadow 0.18s ease,
@@ -73,9 +172,9 @@ body {
 .first-entry:hover,
 .post-single:hover {
     transform: translateY(-2px);
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
-    background: var(--soft-surface-2);
-    border-color: color-mix(in srgb, var(--primary) 22%, var(--secondary));
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.05);
+    border-color: var(--fw-accent);
+    background: color-mix(in srgb, var(--entry) 98%, var(--fw-accent));
 }
 
 .post-entry .entry-header,
@@ -95,10 +194,13 @@ body {
     opacity: 0.88;
 }
 
-/* Article reading space */
+/* ══════════════════════════════════════════
+   6. 正文阅读区
+   ══════════════════════════════════════════ */
+
 .post-content {
     line-height: 1.92;
-    font-size: 1.03rem;
+    font-size: 1.05rem;
 }
 
 .post-content > :first-child {
@@ -112,6 +214,14 @@ body {
     scroll-margin-top: 6rem;
 }
 
+.post-content h2 {
+    margin-top: 2.2rem;
+}
+
+.post-content h3 {
+    margin-top: 1.8rem;
+}
+
 .post-content p,
 .post-content ul,
 .post-content ol,
@@ -122,34 +232,51 @@ body {
 }
 
 .post-content hr {
-    margin: 2rem 0;
-    border-color: color-mix(in srgb, var(--secondary) 35%, transparent);
+    margin: 2.2rem 0;
+    border: none;
+    border-top: 1px solid var(--fw-border-soft);
+    opacity: 0.5;
 }
 
+/* --- 引用块 --- */
 .post-content blockquote {
-    border-inline-start-width: 3px;
-    padding: 0.9rem 1rem;
-    background: color-mix(in srgb, var(--primary) 4%, var(--theme));
-    border-radius: 0 12px 12px 0;
+    border-inline-start: 3px solid var(--fw-accent);
+    padding: 0.9rem 1rem 0.9rem 1.2rem;
+    background: var(--fw-accent-soft);
+    border-radius: 0 14px 14px 0;
 }
 
+.post-content blockquote p {
+    margin: 0.25rem 0;
+}
+
+/* --- 行内代码 --- */
 .post-content code {
     border-radius: 7px;
-    background: color-mix(in srgb, var(--primary) 7%, var(--theme));
+    background: var(--code-bg);
+    padding: 0.18rem 0.35rem;
+    font-size: 0.88em;
 }
 
+/* --- 代码块 --- */
 .post-content pre {
     border-radius: 16px;
-    border: 1px solid var(--article-border);
-    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.05);
+    border: 1px solid var(--border);
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.04);
 }
 
+.post-content pre code {
+    background: none;
+    padding: 0;
+}
+
+/* --- 表格 --- */
 .post-content table {
     display: block;
     overflow-x: auto;
     border-radius: 14px;
-    border: 1px solid var(--article-border);
-    background: var(--soft-surface);
+    border: 1px solid var(--fw-border-soft);
+    background: var(--entry);
 }
 
 .post-content th,
@@ -157,24 +284,42 @@ body {
     padding: 0.8rem 0.9rem;
 }
 
+/* --- 链接 --- */
 .post-content a {
+    text-decoration: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: 0.16em;
+    text-decoration-color: color-mix(in srgb, var(--fw-accent) 30%, transparent);
+    transition: text-decoration-color 0.15s ease, color 0.15s ease;
 }
 
 .post-content a:hover {
-    color: var(--accent-strong);
+    color: var(--fw-accent-hover);
+    text-decoration-color: var(--fw-accent);
 }
 
-/* Tags / controls */
+.post-content a:active {
+    color: var(--fw-accent);
+}
+
+/* --- 选择高亮 --- */
+::selection {
+    background: color-mix(in srgb, var(--fw-accent) 20%, transparent);
+}
+
+/* ══════════════════════════════════════════
+   7. 标签 / 按钮 / 控件
+   ══════════════════════════════════════════ */
+
 .terms-tags a,
 .post-tags a,
 .tag-cloud a,
 .button,
 .pagination a {
     border-radius: 999px;
-    border: 1px solid color-mix(in srgb, var(--secondary) 20%, transparent);
-    background: color-mix(in srgb, var(--primary) 4%, var(--theme));
+    border: 1px solid var(--fw-border-soft);
+    background: var(--entry);
+    transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
 }
 
 .terms-tags a:hover,
@@ -182,24 +327,31 @@ body {
 .tag-cloud a:hover,
 .button:hover,
 .pagination a:hover {
-    border-color: color-mix(in srgb, var(--primary) 28%, var(--secondary));
-    background: var(--accent-soft);
+    border-color: var(--fw-accent);
+    background: var(--fw-accent-soft);
+    color: var(--fw-accent-hover);
 }
 
-/* Navigation / footer */
+/* ══════════════════════════════════════════
+   8. 导航与页脚
+   ══════════════════════════════════════════ */
+
 .header-nav {
     backdrop-filter: saturate(1.2) blur(8px);
 }
 
 .footer {
-    opacity: 0.82;
+    opacity: 0.80;
 }
 
 .footer a {
     text-underline-offset: 0.18em;
 }
 
-/* Small-screen tuning */
+/* ══════════════════════════════════════════
+   9. 小屏适配
+   ══════════════════════════════════════════ */
+
 @media screen and (max-width: 900px) {
     .main,
     .header-nav,
@@ -213,7 +365,15 @@ body {
         font-size: 1rem;
         line-height: 1.85;
     }
+
+    body {
+        font-size: 16px;
+    }
 }
+
+/* ══════════════════════════════════════════
+   10. 动作偏好弱化
+   ══════════════════════════════════════════ */
 
 @media (prefers-reduced-motion: reduce) {
     html {
@@ -222,7 +382,52 @@ body {
 
     .post-entry,
     .first-entry,
-    .post-single {
+    .post-single,
+    .post-content a,
+    .profile img,
+    .terms-tags a,
+    .post-tags a,
+    .tag-cloud a,
+    .button,
+    .pagination a {
         transition: none;
     }
+}
+
+/* ══════════════════════════════════════════
+   11. Post meta 排版对齐
+   ══════════════════════════════════════════ */
+
+.post-meta {
+    opacity: 0.75;
+    font-size: 0.9rem;
+    letter-spacing: 0.02em;
+}
+
+/* ══════════════════════════════════════════
+   12. 面包屑
+   ══════════════════════════════════════════ */
+
+.breadcrumbs {
+    font-size: 0.88rem;
+    opacity: 0.7;
+    letter-spacing: 0.02em;
+}
+
+/* ══════════════════════════════════════════
+   13. 分页器
+   ══════════════════════════════════════════ */
+
+.paginav {
+    border-radius: var(--article-radius);
+    border: 1px solid var(--fw-border-soft);
+    background: var(--entry);
+}
+
+.paginav a {
+    transition: background 0.15s ease;
+}
+
+.paginav a:hover {
+    background: var(--fw-accent-soft);
 }
