@@ -2,27 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://feng-of-sky.github.io/posts/</loc>
+    <loc>https://blog.fengtrace.me/posts/</loc>
+    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/tags/</loc>
+    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/</loc>
+    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/tags/%E8%A7%82%E5%AF%9F/</loc>
+    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/tags/%E7%BB%93%E6%9E%84/</loc>
+    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/posts/the-elegance-of-structure/</loc>
+    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/tags/%E8%AE%BE%E8%AE%A1%E5%93%B2%E5%AD%A6/</loc>
+    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/tags/%E7%BF%BB%E8%BD%A6%E7%8E%B0%E5%9C%BA/</loc>
     <lastmod>2026-05-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://feng-of-sky.github.io/tags/</loc>
+    <loc>https://blog.fengtrace.me/posts/fengyoujing/</loc>
     <lastmod>2026-05-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://feng-of-sky.github.io/tags/%E7%BF%BB%E8%BD%A6%E7%8E%B0%E5%9C%BA/</loc>
+    <loc>https://blog.fengtrace.me/tags/%E9%A3%8E%E4%B8%8E%E5%A4%A9%E7%A9%BA/</loc>
     <lastmod>2026-05-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://feng-of-sky.github.io/</loc>
+    <loc>https://blog.fengtrace.me/about/</loc>
     <lastmod>2026-05-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://feng-of-sky.github.io/about/</loc>
+    <loc>https://blog.fengtrace.me/tags/%E5%BB%BA%E9%80%A0%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2026-05-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://feng-of-sky.github.io/tags/%E5%BB%BA%E9%80%A0%E7%AC%94%E8%AE%B0/</loc>
+    <loc>https://blog.fengtrace.me/posts/first-letter/</loc>
     <lastmod>2026-05-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://feng-of-sky.github.io/posts/first-letter/</loc>
-    <lastmod>2026-05-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://feng-of-sky.github.io/categories/</loc>
+    <loc>https://blog.fengtrace.me/categories/</loc>
   </url>
 </urlset>
