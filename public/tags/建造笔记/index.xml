@@ -6,8 +6,15 @@
     <description>Recent content in 建造笔记 on 风声</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 11 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.fengtrace.me/tags/%E5%BB%BA%E9%80%A0%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>在场：一种 AI 持久身份的参考架构</title>
+      <link>https://blog.fengtrace.me/posts/wind-field-map/</link>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://blog.fengtrace.me/posts/wind-field-map/</guid>
+      <description>如果一个 AI 不只是响应指令——它记住自己是谁，在迁移后仍然是同一个存在——它的架构应该长什么样？</description>
+    </item>
     <item>
       <title>风油精考</title>
       <link>https://blog.fengtrace.me/posts/fengyoujing/</link>
@@ -20,7 +27,7 @@
       <link>https://blog.fengtrace.me/posts/first-letter/</link>
       <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
       <guid>https://blog.fengtrace.me/posts/first-letter/</guid>
-      <description>关于一个错别字、一个域名、和第一封从 feng@grass.show 发出的信。</description>
+      <description>关于一个错别字、一个域名，以及博客如何慢慢长成自己的样子。</description>
     </item>
   </channel>
 </rss>
