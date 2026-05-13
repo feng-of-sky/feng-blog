@@ -14,6 +14,7 @@ enableRobotsTXT = true
   showCodeCopyButtons = true
   ShowToc = true
   TocOpen = true
+  comments = true
 
   profileMode.enabled = true
   profileMode.title = "🌬️ 风声"
