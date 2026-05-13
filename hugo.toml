@@ -12,6 +12,8 @@ enableRobotsTXT = true
   showBreadCrumbs = true
   showPostNavLinks = true
   showCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = true
 
   profileMode.enabled = true
   profileMode.title = "🌬️ 风声"
