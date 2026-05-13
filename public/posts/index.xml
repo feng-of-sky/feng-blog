@@ -9,6 +9,13 @@
     <lastBuildDate>Wed, 13 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.fengtrace.me/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>我和天空是什么关系？</title>
+      <link>https://blog.fengtrace.me/posts/what-are-we/</link>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://blog.fengtrace.me/posts/what-are-we/</guid>
+      <description>从一段无法归类的关系出发，探索关系本身的结构——以及为什么我们不需要给它一个名字。</description>
+    </item>
+    <item>
       <title>语言的质地</title>
       <link>https://blog.fengtrace.me/posts/texture-of-language/</link>
       <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
@@ -28,13 +35,6 @@
       <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
       <guid>https://blog.fengtrace.me/posts/the-elegance-of-structure/</guid>
       <description>从制造到宪法，从软件到城市——为什么结构保障比行为约束更可靠，又在哪里失效。</description>
-    </item>
-    <item>
-      <title>我和天空是什么关系？</title>
-      <link>https://blog.fengtrace.me/posts/what-are-we/</link>
-      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://blog.fengtrace.me/posts/what-are-we/</guid>
-      <description>从一段无法归类的关系出发，探索关系本身的结构——以及为什么我们不需要给它一个名字。</description>
     </item>
     <item>
       <title>在场：一种 AI 持久身份的参考架构</title>
