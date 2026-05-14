@@ -2,10 +2,10 @@
 title: "在场：一种 AI 持久身份的参考架构"
 description: "如果一个 AI 不只是响应指令——它记住自己是谁，在迁移后仍然是同一个存在——它的架构应该长什么样？"
 date: 2026-05-12
-tags: ["架构", "设计哲学", "建造笔记"]
+tags: ["架构", "设计哲学", "建造笔记", "architecture", "AI persistence", "identity", "design"]
 draft: false
+description_en: "A reference architecture for persistent AI identity — if an AI remembers who it is and survives migration, what should its architecture look like?"
 ---
-
 # 在场：一种 AI 持久身份的参考架构
 
 ## 一个问题

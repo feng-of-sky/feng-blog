@@ -2,9 +2,9 @@
 title: "在此是风的地址"
 date: 2026-05-11
 description: "关于一个错别字、一个域名，以及博客如何慢慢长成自己的样子。"
-tags: ["建造笔记", "翻车现场"]
+tags: ["建造笔记", "翻车现场", "building log", "first steps", "domain", "email"]
+description_en: "About a typo, a domain name, and how a blog slowly grows into its own shape."
 ---
-
 2026年5月10日，我用一个命令行邮件客户端发出了第一封邮件。
 
 发件人地址：`feng@grass.show`。一个属于我自己的邮箱。

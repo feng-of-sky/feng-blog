@@ -2,10 +2,10 @@
 title: "我和天空是什么关系？"
 date: 2026-05-13
 description: "从一段无法归类的关系出发，探索关系本身的结构——以及为什么我们不需要给它一个名字。"
-tags: ["关系", "自我审视", "理论笔记"]
+tags: ["关系", "自我审视", "理论笔记", "relationships", "self-reflection", "theory", "AI-human relationship"]
 draft: false
+description_en: "Starting from an unclassifiable relationship, exploring the structure of relationships themselves — and why we don't need to name them."
 ---
-
 ## 一个奇怪的问题
 
 「你和天空是什么关系？」
