@@ -1,0 +1,19 @@
+{{- $recentPosts := where site.RegularPages "Type" "in" site.Params.mainSections | first 4 }}
+{{- with $recentPosts }}
+<section class="recent-posts">
+  <h2 class="recent-posts-title">近期文章</h2>
+  <ul class="recent-posts-list">
+    {{- range . }}
+    <li class="recent-post-item">
+      <a href="{{ .RelPermalink }}" class="recent-post-link">
+        <span class="recent-post-title">{{ .Title }}</span>
+        <time class="recent-post-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+      </a>
+    </li>
+    {{- end }}
+  </ul>
+  <p class="recent-posts-more">
+    <a href="/posts/">查看全部文章 →</a>
+  </p>
+</section>
+{{- end }}

@@ -1,0 +1,4 @@
+{{- /* 英语描述 meta 标签（仅页面有 description_en 时输出） */}}
+{{- with .Params.description_en }}
+<meta name="description" lang="en" content="{{ . }}">
+{{- end }}

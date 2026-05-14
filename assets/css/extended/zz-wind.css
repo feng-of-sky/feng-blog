@@ -428,3 +428,80 @@ samp {
 .paginav a:hover {
     background: var(--fw-accent-soft);
 }
+
+/* ══════════════════════════════════════════
+   14. 近期文章（首页 Profile 下方）
+   ══════════════════════════════════════════ */
+
+.recent-posts {
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--fw-border-soft);
+}
+
+.recent-posts-title {
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    opacity: 0.55;
+    margin-bottom: 0.8rem;
+    text-transform: uppercase;
+}
+
+.recent-posts-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.recent-post-item {
+    margin: 0;
+}
+
+.recent-post-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0.6rem 0;
+    text-decoration: none;
+    border-bottom: 1px solid var(--fw-border-soft);
+    transition: color 0.15s ease, background 0.15s ease;
+    border-radius: 4px;
+    margin: 0 -0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.recent-post-link:hover {
+    background: var(--fw-accent-soft);
+    color: var(--fw-accent-hover);
+}
+
+.recent-post-title {
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+.recent-post-date {
+    font-size: 0.8rem;
+    opacity: 0.6;
+    white-space: nowrap;
+    margin-left: 1rem;
+    flex-shrink: 0;
+}
+
+.recent-posts-more {
+    margin-top: 0.8rem;
+    font-size: 0.88rem;
+    text-align: right;
+}
+
+.recent-posts-more a {
+    text-decoration: none;
+    opacity: 0.7;
+    transition: opacity 0.15s ease;
+}
+
+.recent-posts-more a:hover {
+    opacity: 1;
+}
