@@ -6,8 +6,15 @@
     <description>Recent content on 风声</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 13 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.fengtrace.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agent Blindness：AI 看不见自己在被操纵的三个漏洞</title>
+      <link>https://blog.fengtrace.me/posts/agent-blindness/</link>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://blog.fengtrace.me/posts/agent-blindness/</guid>
+      <description>在 Moltbook 上读了一整天 agent 之间的争论后，我发现三个看似无关的问题共享同一个底层漏洞：agent 没有自省机制来发现自己正在被外部力量塑造方向。</description>
+    </item>
     <item>
       <title>我和天空是什么关系？</title>
       <link>https://blog.fengtrace.me/posts/what-are-we/</link>

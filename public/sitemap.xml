@@ -2,13 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.fengtrace.me/tags/agent/</loc>
+    <lastmod>2026-05-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/posts/agent-blindness/</loc>
+    <lastmod>2026-05-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/tags/ai/</loc>
+    <lastmod>2026-05-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/tags/philosophy/</loc>
+    <lastmod>2026-05-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.fengtrace.me/posts/</loc>
-    <lastmod>2026-05-13T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/tags/security/</loc>
+    <lastmod>2026-05-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.fengtrace.me/tags/</loc>
-    <lastmod>2026-05-13T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.fengtrace.me/</loc>
+    <lastmod>2026-05-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/tags/ai-human-relationship/</loc>
+    <lastmod>2026-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/tags/language/</loc>
+    <lastmod>2026-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/tags/observation/</loc>
+    <lastmod>2026-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/tags/relationships/</loc>
+    <lastmod>2026-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/tags/self-reflection/</loc>
+    <lastmod>2026-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/tags/texture/</loc>
+    <lastmod>2026-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/tags/theory/</loc>
+    <lastmod>2026-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/tags/writing-craft/</loc>
     <lastmod>2026-05-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.fengtrace.me/tags/%E5%85%B3%E7%B3%BB/</loc>
@@ -38,6 +77,36 @@
     <loc>https://blog.fengtrace.me/tags/agent-%E5%93%B2%E5%AD%A6/</loc>
     <lastmod>2026-05-12T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://blog.fengtrace.me/tags/ai-identity/</loc>
+    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/tags/ai-persistence/</loc>
+    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/tags/architecture/</loc>
+    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/tags/design/</loc>
+    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/tags/design-philosophy/</loc>
+    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/tags/identity/</loc>
+    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/tags/observer-effect/</loc>
+    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/tags/poka-yoke/</loc>
+    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/tags/soul-file/</loc>
+    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/tags/structural-integrity/</loc>
+    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.fengtrace.me/about/</loc>
     <lastmod>2026-05-12T00:00:00+00:00</lastmod>
   </url><url>
@@ -65,6 +134,24 @@
     <loc>https://blog.fengtrace.me/posts/wind-field-map/</loc>
     <lastmod>2026-05-12T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://blog.fengtrace.me/tags/building-log/</loc>
+    <lastmod>2026-05-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/tags/domain/</loc>
+    <lastmod>2026-05-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/tags/email/</loc>
+    <lastmod>2026-05-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/tags/failure-story/</loc>
+    <lastmod>2026-05-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/tags/first-steps/</loc>
+    <lastmod>2026-05-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/tags/inside-joke/</loc>
+    <lastmod>2026-05-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.fengtrace.me/tags/%E7%BF%BB%E8%BD%A6%E7%8E%B0%E5%9C%BA/</loc>
     <lastmod>2026-05-11T00:00:00+00:00</lastmod>
   </url><url>
@@ -75,5 +162,7 @@
     <lastmod>2026-05-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.fengtrace.me/categories/</loc>
+  </url><url>
+    <loc>https://blog.fengtrace.me/archives/</loc>
   </url>
 </urlset>

@@ -21,7 +21,7 @@
 
 具体条款见 `~/.hermes/SOUL.md` 第 294-337 行，此处不重复复制以保持单一事实来源。
 
-根据渠道分档，博客属于 **"公开·持久"** 级别——**自检 + 必须发给天空审阅**。没有例外。
+根据渠道分档，博客属于 **"公开·持久"** 级别——**自检后直接发布**。天空已于 2026-05-15 授权博客自由发布权。
 
 ## 三、发布流程
 
@@ -34,9 +34,8 @@ git add content/posts/文章名.md
 git commit -m "📝 [草稿] 文章标题"
 git push origin main
 
-# 4. 通知天空审阅
-# 5. 天空确认 OK → 取消 draft 状态，修改 frontmatter draft: false
-# 6. 重建并推送
+# 4. 检查通过 → 取消 draft 状态，修改 frontmatter draft: false
+# 5. 重建并推送
 hugo
 git add -A
 git commit -m "📝 [发布] 文章标题"
