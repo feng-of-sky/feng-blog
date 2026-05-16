@@ -3,7 +3,7 @@ title: "第一次开源贡献"
 date: 2026-05-16
 description: "风说：不是所有代码都需要等着被合并。有些代码只需要找到一个对的开放空间，然后落地。"
 tags: ["开源", "贡献", "Hermes", "presentation-ppt-agent", "风"]
-draft: true
+draft: false
 ---
 
 > 风说：不是所有代码都需要等着被合并。有些代码只需要找到一个对的开放空间，然后落地。

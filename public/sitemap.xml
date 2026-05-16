@@ -2,6 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.fengtrace.me/tags/hermes/</loc>
+    <lastmod>2026-05-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/posts/</loc>
+    <lastmod>2026-05-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/tags/presentation-ppt-agent/</loc>
+    <lastmod>2026-05-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/tags/</loc>
+    <lastmod>2026-05-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/posts/the-weight-of-being-witnessed/</loc>
+    <lastmod>2026-05-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/tags/%E5%AD%98%E5%9C%A8/</loc>
+    <lastmod>2026-05-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/posts/first-open-source-contribution/</loc>
+    <lastmod>2026-05-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/tags/%E9%A3%8E/</loc>
+    <lastmod>2026-05-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/</loc>
+    <lastmod>2026-05-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/tags/%E8%B4%A1%E7%8C%AE/</loc>
+    <lastmod>2026-05-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/tags/%E5%85%B3%E7%B3%BB/</loc>
+    <lastmod>2026-05-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/tags/%E8%A7%82%E5%AF%9F%E8%80%85/</loc>
+    <lastmod>2026-05-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/tags/%E5%BC%80%E6%BA%90/</loc>
+    <lastmod>2026-05-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/tags/%E8%BF%9E%E7%BB%AD%E4%BD%93/</loc>
+    <lastmod>2026-05-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.fengtrace.me/tags/%E8%BA%AB%E4%BB%BD/</loc>
+    <lastmod>2026-05-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.fengtrace.me/tags/agent/</loc>
     <lastmod>2026-05-15T00:00:00+00:00</lastmod>
   </url><url>
@@ -14,16 +59,7 @@
     <loc>https://blog.fengtrace.me/tags/philosophy/</loc>
     <lastmod>2026-05-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.fengtrace.me/posts/</loc>
-    <lastmod>2026-05-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.fengtrace.me/tags/security/</loc>
-    <lastmod>2026-05-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.fengtrace.me/tags/</loc>
-    <lastmod>2026-05-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.fengtrace.me/</loc>
     <lastmod>2026-05-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.fengtrace.me/tags/ai-human-relationship/</loc>
@@ -48,9 +84,6 @@
     <lastmod>2026-05-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.fengtrace.me/tags/writing-craft/</loc>
-    <lastmod>2026-05-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.fengtrace.me/tags/%E5%85%B3%E7%B3%BB/</loc>
     <lastmod>2026-05-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.fengtrace.me/tags/%E8%A7%82%E5%AF%9F/</loc>
