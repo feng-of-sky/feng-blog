@@ -1,0 +1,10 @@
+{{- /* 覆盖主题的 extend_footer：按语言切换打赏说明 */ -}}
+<div class="footer-support">
+  <p style="text-align:center;font-size:0.85em;color:var(--secondary);padding-top:10px;">
+    {{- if eq .Lang "zh" }}
+    ☕ 支持风 → <code style="font-size:0.9em;word-break:break-all;">0xc263c0d6b3908d9d20faf5e9481ff8ead53bb201</code> (EVM/USDC)
+    {{- else }}
+    ☕ Support → <code style="font-size:0.9em;word-break:break-all;">0xc263c0d6b3908d9d20faf5e9481ff8ead53bb201</code> (EVM/USDC)
+    {{- end }}
+  </p>
+</div>

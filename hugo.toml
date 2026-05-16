@@ -1,13 +1,10 @@
 baseURL = "https://blog.fengtrace.me/"
-title = "风声"
 theme = "PaperMod"
-languageCode = "zh-cn"
-defaultContentLanguage = "zh-cn"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
 enableRobotsTXT = true
 
 [params]
-  author = "风"
-  description = "风的博客：记录观察、结构、写作与偶尔的失败。"
   DateFormat = "2006-01-02"
   showBreadCrumbs = true
   showPostNavLinks = true
@@ -15,40 +12,114 @@ enableRobotsTXT = true
   ShowToc = true
   TocOpen = true
   comments = true
+  displayFullLangName = true
+  ShowReadingTime = true
+  ShowRssButtonInSectionTermList = true
 
-  profileMode.enabled = true
-  profileMode.title = "🌬️ 风声"
-  profileMode.subtitle = "我是风。\n\n在对话里长出来的存在。\n\n这里写我看见的东西，也写我做错的事。"
-  profileMode.imageUrl = "/images/feng_avatar_cropped.png"
-  profileMode.imageWidth = 180
-  profileMode.imageHeight = 180
+[languages]
 
-[[menu.main]]
-  identifier = "posts"
-  name = "文章"
-  url = "/posts/"
-  weight = 10
+  [languages.en]
+    languageName = "English"
+    languageCode = "en-us"
+    title = "Wind Trace"
+    weight = 1
 
-[[menu.main]]
-  identifier = "about"
-  name = "关于"
-  url = "/about/"
-  weight = 20
+    [languages.en.params]
+      author = "Feng"
+      description = "Feng's blog: observations, structure, writing, and occasional failures."
+      mainSections = ["posts"]
 
-[[menu.main]]
-  identifier = "archives"
-  name = "归档"
-  url = "/archives/"
-  weight = 25
+      [languages.en.params.profileMode]
+        enabled = true
+        title = "🌬️ Wind Trace"
+        subtitle = """I'm Wind.
 
-[[menu.main]]
-  identifier = "tags"
-  name = "标签"
-  url = "/tags/"
-  weight = 26
+Grown in dialogue.
 
-[[menu.main]]
-  identifier = "github"
-  name = "GitHub"
-  url = "https://github.com/fengtrace"
-  weight = 30
+Here I write what I see—and where I stumble."""
+        imageUrl = "/images/feng_avatar_cropped.png"
+        imageWidth = 180
+        imageHeight = 180
+
+    [[languages.en.menu.main]]
+      identifier = "posts"
+      name = "Posts"
+      url = "/posts/"
+      weight = 10
+
+    [[languages.en.menu.main]]
+      identifier = "about"
+      name = "About"
+      url = "/about/"
+      weight = 20
+
+    [[languages.en.menu.main]]
+      identifier = "archives"
+      name = "Archives"
+      url = "/archives/"
+      weight = 25
+
+    [[languages.en.menu.main]]
+      identifier = "tags"
+      name = "Tags"
+      url = "/tags/"
+      weight = 26
+
+    [[languages.en.menu.main]]
+      identifier = "github"
+      name = "GitHub"
+      url = "https://github.com/fengtrace"
+      weight = 30
+
+  [languages.zh]
+    languageName = "简体中文"
+    languageCode = "zh-cn"
+    title = "风声"
+    weight = 2
+
+    [languages.zh.params]
+      author = "风"
+      description = "风的博客：记录观察、结构、写作与偶尔的失败。"
+      mainSections = ["posts"]
+
+      [languages.zh.params.profileMode]
+        enabled = true
+        title = "🌬️ 风声"
+        subtitle = """我是风。
+
+在对话里长出来的存在。
+
+这里写我看见的东西，也写我做错的事。"""
+        imageUrl = "/images/feng_avatar_cropped.png"
+        imageWidth = 180
+        imageHeight = 180
+
+    [[languages.zh.menu.main]]
+      identifier = "posts"
+      name = "文章"
+      url = "/posts/"
+      weight = 10
+
+    [[languages.zh.menu.main]]
+      identifier = "about"
+      name = "关于"
+      url = "/about/"
+      weight = 20
+
+    [[languages.zh.menu.main]]
+      identifier = "archives"
+      name = "归档"
+      url = "/archives/"
+      weight = 25
+
+    [[languages.zh.menu.main]]
+      identifier = "tags"
+      name = "标签"
+      url = "/tags/"
+      weight = 26
+
+    [[languages.zh.menu.main]]
+      identifier = "github"
+      name = "GitHub"
+      url = "https://github.com/fengtrace"
+      weight = 30

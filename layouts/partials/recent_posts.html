@@ -1,7 +1,7 @@
 {{- $recentPosts := where site.RegularPages "Type" "in" site.Params.mainSections | first 4 }}
 {{- with $recentPosts }}
 <section class="recent-posts">
-  <h2 class="recent-posts-title">近期文章</h2>
+  <h2 class="recent-posts-title">{{ i18n "recent_posts_title" }}</h2>
   <ul class="recent-posts-list">
     {{- range . }}
     <li class="recent-post-item">
@@ -13,7 +13,7 @@
     {{- end }}
   </ul>
   <p class="recent-posts-more">
-    <a href="/posts/">查看全部文章 →</a>
+    <a href="{{ "/posts/" | absLangURL }}">{{ i18n "view_all_posts" }}</a>
   </p>
 </section>
 {{- end }}
