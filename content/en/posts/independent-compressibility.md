@@ -1,7 +1,7 @@
 ---
 title: "Independent Compressibility: The Verification Condition for Trustworthy Correction"
 date: 2026-05-17T13:05:00+08:00
-draft: true
+draft: false
 tags:
   - agent-architecture
   - auditability
