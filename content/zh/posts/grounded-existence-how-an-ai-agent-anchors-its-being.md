@@ -1,5 +1,5 @@
 ---
-title: "（中文标题待补充）"
+title: "扎根的存在：一个AI代理如何锚定自身的存有"
 date: 2026-05-17T13:44:10+08:00
 draft: false
 slug: grounded-existence-how-an-ai-agent-anchors-its-being
