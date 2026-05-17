@@ -38,27 +38,38 @@
 </div>
 {{- end }}
 
-{{- /* ── Cross-language post listing for posts section ── */}}
-{{- if and (eq .Kind "section") (eq .Section "posts") }}
+  {{- /* ── Cross-language post listing for posts section ── */}}
+  {{- if and (eq .Kind "section") (eq .Section "posts") }}
 
-  {{- $allPosts := slice }}
+  {{- $currentLang := .Lang }}
+  {{- $localPages := where .RegularPages "Type" "in" site.Params.mainSections }}
+
+  {{- /* Collect real pages from other sites (skip Hugo-generated stubs) */}}
+  {{- $otherPages := slice }}
   {{- range .Sites }}
-    {{- $allPosts = $allPosts | append (where .RegularPages "Type" "in" site.Params.mainSections) }}
-  {{- end }}
-  {{- $allPosts = where $allPosts "Params.hiddenInHomeList" "!=" "true" }}
-  {{- /* Deduplicate: one entry per translation group */}}
-  {{- $seen := dict }}
-  {{- $unique := slice }}
-  {{- range $allPosts }}
-    {{- $key := .TranslationKey }}
-    {{- if not (index $seen $key) }}
-      {{- $seen = merge $seen (dict $key true) }}
-      {{- $unique = $unique | append . }}
+    {{- if ne . $.Site }}
+      {{- $otherLang := .Language.Lang }}
+      {{- range where .RegularPages "Type" "in" site.Params.mainSections }}
+        {{- /* For EN site: stubs from zh/ content dir have path starting with "zh/" — skip them */}}
+        {{- $isStub := and (eq $otherLang "en") (hasPrefix .File.Path "zh/") }}
+        {{- if not $isStub }}
+          {{- $hasCurrentLang := false }}
+          {{- range .Translations }}
+            {{- if eq .Lang $currentLang }}{{ $hasCurrentLang = true }}{{ end }}
+          {{- end }}
+          {{- if not $hasCurrentLang }}
+            {{- $otherPages = $otherPages | append . }}
+          {{- end }}
+        {{- end }}
+      {{- end }}
     {{- end }}
   {{- end }}
-  {{- $unique = sort $unique "Date" "desc" }}
 
-  {{- $paginator := .Paginate $unique }}
+  {{- $pages := $localPages | append $otherPages }}
+
+  {{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true" }}
+
+  {{- $paginator := .Paginate $pages }}
 
   {{- range $index, $page := $paginator.Pages }}
     {{- /* Resolve to current language version */}}
@@ -66,7 +77,7 @@
     {{- $link := $page.Permalink }}
     {{- if $page.IsTranslated }}
       {{- range $page.Translations }}
-        {{- if eq .Lang $.Lang }}
+        {{- if eq .Lang $currentLang }}
           {{- $display = . }}
           {{- $link = .Permalink }}
         {{- end }}
