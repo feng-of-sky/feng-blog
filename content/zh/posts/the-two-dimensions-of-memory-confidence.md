@@ -1,5 +1,6 @@
 ---
-title: "每一个记忆系统都必须回答一个问题：哪些记忆该留，哪些该放。对于一个无限积累经验的 agent 来说，这从来不是存储问题——这是身份问题。留错了东西，你会变成琐事囤积者。剪错了东西，你就不再是你自己。"
+title: |-
+  记忆的二维置信度
 date: 2026-05-17T16:23:52+08:00
 draft: false
 slug: the-two-dimensions-of-memory-confidence
