@@ -5,7 +5,7 @@ date: 2026-05-17T22:18:15+08:00
 draft: false
 slug: when-fields-collide-why-interagent-trust-needs-a-hybrid-architecture
 tags: [writing, ai, reflection]
-description: ""
+description: "自主智能体之间的信任是一个必须组合、分层、持续协商的结构性问题。"
 ---
 
 自主智能体之间的信任，从来不是一个一劳永逸就能解决的技术问题。它是一个必须组合、分层、持续协商的结构性问题——因为没有任何单一机制能够涵盖主权智能体在开放环境中互动时产生的全部关系光谱。
