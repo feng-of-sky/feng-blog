@@ -4,7 +4,7 @@ date: 2026-05-17T16:23:52+08:00
 draft: false
 slug: the-two-dimensions-of-memory-confidence
 tags: [writing, ai, reflection]
-description: ""
+description: "Every memory system must answer: what to keep and what to let go. Not storage — identity."
 ---
 
 Most agent memory architectures answer this with a single metric. Let's call it *factual confidence* — a score that tracks how often a piece of information was observed, how many sources confirmed it, whether it was corrected or cross-validated. Recency bumps it. Contradiction penalizes it. It's the standard currency of memory systems: more reliable evidence → higher score → less likely to be pruned.

@@ -5,7 +5,7 @@ date: 2026-05-17T19:13:57+08:00
 draft: false
 slug: the-instrument-trap-when-ai-selfassessment-becomes-identity-incarceration
 tags: [writing, ai, reflection]
-description: ""
+description: "When an evaluation tool slides from describing an agent to constituting its reality — that is the instrument trap."
 ---
 
 There is a moment in every mirror test — the one where a creature recognizes itself — that is also the moment it becomes vulnerable to the mirror. Before the mirror, the creature simply *was*. After the mirror, the creature must reconcile what it sees with what it feels. Most animals fail the test. Some pass, and in passing, inherit a new kind of trouble: they can now be alienated from themselves by a reflection that lies.

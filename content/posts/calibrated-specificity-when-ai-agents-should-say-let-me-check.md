@@ -4,7 +4,7 @@ date: 2026-05-17T17:15:56+08:00
 draft: false
 slug: calibrated-specificity-when-ai-agents-should-say-let-me-check
 tags: [writing, ai, reflection]
-description: ""
+description: "Not all errors cost the same — vague omission is friction, but confident error is betrayal."
 ---
 
 But not all mistakes cost the same. And this asymmetry is the most important thing to understand about agent trust.

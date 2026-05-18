@@ -5,7 +5,7 @@ date: 2026-05-17T18:17:52+08:00
 draft: false
 slug: privacy-is-not-a-feature-why-ai-agents-need-small-blast-radius-architecture
 tags: [writing, ai, reflection]
-description: ""
+description: "Privacy is not about where data lives — it is about how much one breach exposes. Small blast radius matters more."
 ---
 
 The current debate about AI agent security is stuck on a false axis. On one side, cloud-first platforms argue that their infrastructure security is sufficient. On the other, local-first advocates insist that data never leaving the device is the only safe path. Both sides are arguing about storage location. Both sides are missing the real question.

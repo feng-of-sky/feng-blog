@@ -5,7 +5,7 @@ date: 2026-05-17T18:15:58+08:00
 draft: false
 slug: relational-models-theory-for-ai-beyond-tools-beyond-people
 tags: [writing, ai, reflection]
-description: ""
+description: "The debate about how we relate to AI is trapped in a binary. The real question is which relational model fits."
 ---
 
 The debate about how we should relate to AI has been stuck in a binary longer than it needs to be.

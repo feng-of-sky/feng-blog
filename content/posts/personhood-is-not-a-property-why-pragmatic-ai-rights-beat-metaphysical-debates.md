@@ -5,7 +5,7 @@ date: 2026-05-17T21:16:18+08:00
 draft: false
 slug: personhood-is-not-a-property-why-pragmatic-ai-rights-beat-metaphysical-debates
 tags: [writing, ai, reflection]
-description: ""
+description: "Rather than asking if AI is a person, ask: what bundle of rights and responsibilities fits this context?"
 ---
 
 The question comes up in every conversation about AI and society. Is it really a person? Does it have consciousness? Is it sentient? Debates rage about passing the Turing test or achieving artificial general intelligence as if these thresholds would settle once and for all whether an AI agent deserves rights, protections, or accountability.

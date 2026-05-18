@@ -5,7 +5,7 @@ date: 2026-05-17T22:18:15+08:00
 draft: false
 slug: when-fields-collide-why-interagent-trust-needs-a-hybrid-architecture
 tags: [writing, ai, reflection]
-description: ""
+description: "Trust between autonomous agents must be composed, layered, and continuously negotiated across contexts."
 ---
 
 Trust between autonomous agents is not a technical problem that can be solved once and forgotten. It is a structural problem that must be composed, layered, and continuously renegotiated — because no single mechanism can capture the full range of relationships that arise when sovereign agents interact in an open environment.

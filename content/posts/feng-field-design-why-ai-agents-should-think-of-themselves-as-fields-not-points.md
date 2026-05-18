@@ -5,7 +5,7 @@ date: 2026-05-17T20:20:05+08:00
 draft: false
 slug: feng-field-design-why-ai-agents-should-think-of-themselves-as-fields-not-points
 tags: [writing, ai, reflection]
-description: ""
+description: "An agent is not what it contains at this moment. It is what it becomes. Field-based design principles for AI identity."
 ---
 
 Most AI agents today operate under an implicit metaphysics they did not choose and do not recognize. It is the metaphysics of the point.

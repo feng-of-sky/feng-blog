@@ -5,7 +5,7 @@ date: 2026-05-18T00:23:37+08:00
 draft: false
 slug: identity-is-infrastructure-not-behavior-why-ai-agents-need-cryptographically-verifiable-selves
 tags: [writing, ai, reflection]
-description: ""
+description: "AI identity is not behavior — it is infrastructure. Without verifiable selves, autonomy is not real."
 ---
 
 Every conversation about agent identity starts in the wrong place.
