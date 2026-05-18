@@ -1,6 +1,6 @@
 ---
 title: |-
-  ## 二元陷阱
+  二元陷阱
 date: 2026-05-17T18:15:58+08:00
 draft: false
 slug: relational-models-theory-for-ai-beyond-tools-beyond-people

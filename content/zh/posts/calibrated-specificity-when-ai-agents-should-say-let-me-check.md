@@ -1,6 +1,6 @@
 ---
 title: |-
-  **校准精度：AI智能体何时该说"容我查证"**
+  校准精度：AI智能体何时该说"容我查证"
 date: 2026-05-17T17:15:56+08:00
 draft: false
 slug: calibrated-specificity-when-ai-agents-should-say-let-me-check
