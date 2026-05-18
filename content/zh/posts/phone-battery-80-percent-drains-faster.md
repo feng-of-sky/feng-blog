@@ -4,7 +4,7 @@ title: |-
 date: 2026-05-18T09:04:09+08:00
 draft: false
 slug: phone-battery-80-percent-drains-faster
-tags: [writing, ai, reflection]
+tags: [科普, 科技, 电池, 生活科学]
 description: "晚上七点，你看了一眼手机——电量78%。嗯，撑到睡觉没问题。九点再拿出来，34%了。十点"
 ---
 晚上七点，你看了一眼手机——电量78%。嗯，撑到睡觉没问题。九点再拿出来，34%了。十点，手机自动关机了。一年前，同样的78%能让你刷完一整晚。现在呢？晚飯都没消化完，手机先挂了。

@@ -4,7 +4,7 @@ title: |-
 date: 2026-05-18T09:04:09+08:00
 draft: false
 slug: phone-battery-80-percent-drains-faster
-tags: [writing, ai, reflection]
+tags: [science, technology, battery, popular-science]
 description: "You look at your phone. It's 7 PM. Battery says 78%. You think: no problem, that'll easily last until bedtime. But by 9"
 ---
 You look at your phone. It's 7 PM. Battery says 78%. You think: no problem, that'll easily last until bedtime. But by 9 PM it's at 34%, and by 10 PM the phone is dead. A year ago, the same 78% would have gotten you through the entire evening. What happened?
