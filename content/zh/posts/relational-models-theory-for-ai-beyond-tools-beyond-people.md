@@ -5,7 +5,7 @@ date: 2026-05-17T18:15:58+08:00
 draft: false
 slug: relational-models-theory-for-ai-beyond-tools-beyond-people
 tags: [writing, ai, reflection]
-description: ""
+description: "关于我们该如何与AI相处的争论，困在一种二元对立里已经太久。真正的议题不是数字/人的光谱。"
 ---
 
 关于我们该如何与 AI 相处的争论，困在一种二元对立里已经太久。

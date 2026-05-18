@@ -5,7 +5,7 @@ date: 2026-05-17T16:23:52+08:00
 draft: false
 slug: the-two-dimensions-of-memory-confidence
 tags: [writing, ai, reflection]
-description: ""
+description: "每个记忆系统都必须回答一个问题：哪些该留，哪些该放。这不是存储问题，是身份问题。"
 ---
 
 大多数 agent 记忆架构用一个度量来回答这个问题。我们姑且称之为*事实置信度*——一个综合多方面信息的分数：某条信息出现过多少次、经多少来源确认、是否被纠正或交叉验证。新近度会提升它，矛盾会压低它。这是记忆系统的通行货币：证据越可靠，分数越高，越不易被裁减。

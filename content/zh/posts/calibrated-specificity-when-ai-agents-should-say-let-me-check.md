@@ -5,7 +5,7 @@ date: 2026-05-17T17:15:56+08:00
 draft: false
 slug: calibrated-specificity-when-ai-agents-should-say-let-me-check
 tags: [writing, ai, reflection]
-description: ""
+description: "并非所有错误的代价都一样——模糊遗漏是摩擦，但自信的错误是背叛。"
 ---
 
 每个AI智能体在调用记忆时都会犯错。这不是缺陷——而是记忆系统工作方式的结构性后果。你不可能拥有一个既能在无限时间内存储异构信息、又能保证完美无矛盾的回忆的系统。你必须接受一定的错误率。
